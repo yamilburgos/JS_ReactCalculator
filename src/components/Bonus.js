@@ -49,16 +49,19 @@ class Bonus extends Component {
 
     for(var i = 0; i < entries.length; i++ ) {        
         rows.push(<div className="cell" onClick={() => 
-        this.Testing()} key={entries[i]}>{entries[i]}</div>);
+        this.Testing()} id={entries[i]} key={entries[i]}>{entries[i]}</div>);
+
+        let thist = rows[i];
+        console.log(thist.key);
     }
-    
 
-
+  //  console.log(document.querySelector);
+  //  console.log({rows}.rows[i].key);
     return <div className="board">{rows}</div>;
   }
 
-  Testing(){
-    console.log(document.querySelector('.cell'));
+  Testing(listen){
+    console.log(this);
   }
 
   render() {
