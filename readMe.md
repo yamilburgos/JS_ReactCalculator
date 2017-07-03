@@ -4,7 +4,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-  https://yamilburgos.github.io/ReactCalculator
+	https://yamilburgos.github.io/ReactCalculator
 
 ![](demo.png)
 
